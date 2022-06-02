@@ -1,0 +1,17 @@
+:root {
+    --roadmap-segment-1: rgb(128, 0, 128);
+    --roadmap-segment-2: rgb(238, 130, 238);
+    --roadmap-segment-3: rgb(105, 45, 148);
+    --roadmap-segment-4: rgb(255, 0, 255);
+    --roadmap-segment-5: rgb(220, 20, 60);
+    --roadmap-teal: rgb(0, 209, 255);
+    --black: rgb(0, 0, 0);
+    --roadmap-main-font: 'Inter';
+    --roadmap-header-font: 'Angkor';
+}
+.roadmap-container {
+    background-color: var(--black);
+    height: 56rem;
+    width: 100vw;
+    overflow: hidden;
+}

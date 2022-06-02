@@ -1,0 +1,18 @@
+:root {
+    --about-main-background: url('/images/about-me-header.jpg');
+    --about-me-font: 'Inter';
+    --about-me-shadow: rgba(0, 0, 0, 0.3);
+    --blue-circle: rgba(21, 84, 104, 0.6);
+    --green-circle: rgba(79, 104, 21, 0.6);
+    --yellow-circle: rgba(104, 63, 21, 0.6);
+    --white: rgb(255, 255, 255);
+}
+.about-me-container {
+    position: relative;
+    height: 56rem;
+    width: 100vw;
+    background-image: var(--about-main-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}

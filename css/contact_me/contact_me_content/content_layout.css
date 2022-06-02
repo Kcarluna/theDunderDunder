@@ -1,0 +1,70 @@
+.contact-header h1 {
+    top: 2.5rem;
+    right: 1rem;
+}
+#email-header {
+    width: fit-content;
+    margin: 0;
+    padding: 0.2rem;
+    border-top-right-radius: 0.3rem;
+}
+form {
+    display: flex;
+    max-width: 45rem;
+    height: 5rem;
+}
+#email {
+    flex: 1;
+    height: 4rem;
+    width: 100%;
+    border-radius: 0;
+}
+#submit {
+    margin: 0 3rem 0 -0.5rem;
+    height: 4.6rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    cursor: pointer;
+}
+.contact-me-links-container {
+    max-width: 45rem;
+}
+.contact-me-social {
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+.contact-me-social h2 {
+    margin: 0 0 0 3rem;
+    padding: 1.76rem 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    user-select: none;
+}
+.contact-me-link {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1.55rem 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+}
+.contact-me-link p {
+    margin: 0;
+}
+.contact-me-link svg {
+    width: 1.5rem;
+}
+.contact-me-links-container .contact-me-social:nth-child(1) h2 {
+    padding: 1.68rem 0.6rem;
+}
+.contact-me-links-container .contact-me-social:nth-child(2) h2 {
+    margin: 0;
+    padding: 1.77rem 0.2rem;
+}
+.contact-me-links-container .contact-me-social:nth-child(3) h2 {
+    padding: 1.68rem 0.5rem;
+}
+.contact-me-links-container .contact-me-social:nth-child(2) .contact-me-link {
+    margin: 0 3rem 0 0;
+}

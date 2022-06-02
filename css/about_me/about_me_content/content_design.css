@@ -1,0 +1,47 @@
+.about-me-portrait {
+    box-shadow: 0 0 10px 5px var(--about-me-shadow);
+}
+.about-me-circle {
+    box-shadow: none;
+}
+.blue-circle {
+    background-color: var(--blue-circle);
+}
+.green-circle {
+    background-color: var(--green-circle);
+}
+.yellow-circle {
+    background-color: var(--yellow-circle);
+}
+.about-me-info {
+    font-family: var(--about-me-font), sans-serif;
+    color: var(--white);
+}
+.about-me-info h1{
+    background-image: url('/images/about-me-header.jpg');
+    background-size: cover;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about-me-info p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.about-me-info p:nth-child(2) {
+    background-image: url('/images/paragraph1_background.jpg');
+    background-size: cover;
+}
+.about-me-info p:nth-child(3) {
+    background-image: url('/images/paragraph2_background.jpg');
+    background-size: cover;
+}
+.about-me-info p strong {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.farewell h2 {
+    margin: 0 auto 0.5rem auto;
+    font-family: var(--about-me-font), sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}

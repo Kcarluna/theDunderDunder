@@ -1,0 +1,4 @@
+.header-flag h1 {
+    font-family: var(--about-me-font), sans-serif;
+    font-weight: 300;
+}

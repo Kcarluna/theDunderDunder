@@ -1,0 +1,66 @@
+.piano-list-roadmap {
+    background-color: var(--black);
+}
+.natural-key-content p {
+    color: white;
+    font-family: var(--roadmap-main-font), sans-serif;
+    font-weight: 300;
+}
+.natural-key-content h3 {
+    color: gray;
+    opacity: 0.5;
+    font-size: 3.5rem;
+    font-family: var(--roadmap-header-font), sans-serif;
+}
+.piano-key {
+    border: 1px solid var(--roadmap-teal);
+}
+.sharps-and-flats {
+    background-color: var(--black);
+    border: 1px solid var(--roadmap-teal)
+}
+#piano-key-1:hover {
+    background-color: rgba(255, 50, 25, 0.5);
+}
+#sharp-and-flat-1:hover {
+    background-color: rgb(255, 100, 50);
+}
+#piano-key-2:hover {
+    background-color: rgba(255, 200, 50, 0.5);
+}
+#sharp-and-flat-2:hover {
+    background-color: rgb(200, 225, 0);
+}
+#piano-key-3:hover {
+    background-color: rgba(200, 225, 0, 0.5);
+}
+#sharp-and-flat-3:hover {
+    background-color: rgb(50, 100, 20);
+}
+#piano-key-4:hover {
+    background-color: rgba(50, 100, 20, 0.5);
+}
+#sharp-and-flat-4:hover {
+    background-color: rgb(0, 182, 62);
+}
+#piano-key-5:hover {
+    background-color: rgba(0, 182, 62, 0.5);
+}
+#sharp-and-flat-5:hover {
+    background-color: rgb(0, 220, 150);
+}
+#piano-key-6:hover {
+    background-color: rgba(0, 220, 150, 0.5);
+}
+#sharp-and-flat-6:hover {
+    background-color: rgb(100, 0, 100);
+}
+#piano-key-7:hover {
+    background-color: rgba(100, 0, 100, 0.7);
+}
+#sharp-and-flat-7:hover {
+    background-color: rgb(125, 50, 150);
+}
+#piano-key-8:hover {
+    background-color: rgba(125, 50, 150, 0.5);
+}

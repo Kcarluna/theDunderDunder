@@ -1,0 +1,42 @@
+.previous-featured-project {
+    background-color: var(--portfolio-dark-gray);
+}
+.previous-featured-project {
+    color: var(--white);
+}
+.portfolio-circle {
+    box-shadow: var(--circle-box-shadow);
+}
+#previous-featured-project-1-circle {
+    background-color: var(--circle-background-teal);
+}
+#previous-featured-project-2-circle {
+    background-color: var(--circle-background-green);
+}
+#previous-featured-project-3-circle {
+    background-color: var(--circle-background-yellow);
+}
+.previous-featured-project-info h2 {
+    font-size: 2.3rem;
+    font-family: var(--portfolio-header-font);
+}
+.previous-featured-project-info p {
+    font-size: 0.9rem;
+    font-family: var(--portfolio-main-font);
+    font-weight: 300;
+}
+.btn {
+    border: none;
+    color: var(--white);
+}
+.encourage-btn {
+    background-color: rgb(53, 53, 53);
+    border-radius: 2rem;
+}
+.discourage-btn {
+    background-color: transparent;
+}
+.portfolio-catalog-btn {
+    background-color: transparent;
+    color: var(--black);
+}
