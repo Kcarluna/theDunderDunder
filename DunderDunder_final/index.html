@@ -1,0 +1,685 @@
+<!-- Install Docker, Node -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page Refresh -->
+  <!-- <meta http-equiv="refresh" content="30"> -->
+  <title>DunderDunder | Home</title>
+  <!-- Site Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="msapplication-config" content="favicon/browserconfig.xml" />
+  <meta name="msapplication-TileColor" content="#00D1FF">
+  <meta name="theme-color" content="#00D1FF">
+  <meta name="description" content="Non-fungible Tokens, NFT, digital art">
+  <meta name="keywords" content="Web3, digital art, NFT, Non-fungible Tokens, cryptocurrency">
+  <meta name="author" content="Jacob Luna">
+  <!-- Google fonts -->
+  <link type="text/css" rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link type="text/css" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Inter Font @ weight 200/300/500 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap" rel="stylesheet">
+  <!-- Angkor Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
+  <!-- Main Header and Navbar-->
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/landing_page.css">
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/landing_page_header/header_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/landing_page_header/header_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/navbar/navbar_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/navbar/navbar_design.css">
+  <!-- Landing Page -->
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/landing_page_content/content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/landing_page/landing_page_content/content_design.css">
+  <!-- Portfolio (Main)-->
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_main/portfolio_main.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_main/portfolio_main_header/main_header_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_main/portfolio_main_header/main_header_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_main/portfolio_main_content/main_content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_main/portfolio_main_content/main_content_design.css">
+  <!-- Portfolio (Catalog) -->
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_catalog/portfolio_catalog.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_catalog/portfolio_catalog_header/catalog_header_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_catalog/portfolio_catalog_header/catalog_header_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_catalog/portfolio_catalog_content/catalog_content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/portfolio_catalog/portfolio_catalog_content/catalog_content_design.css">
+  <!-- Roadmap -->
+  <link type="text/css" rel="stylesheet" href="/css/roadmap/roadmap.css">
+  <link type="text/css" rel="stylesheet" href="/css/roadmap/roadmap_header/header_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/roadmap/roadmap_header/header_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/roadmap/roadmap_content/content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/roadmap/roadmap_content/content_design.css">
+  <!-- About Me -->
+  <link type="text/css" rel="stylesheet" href="/css/about_me/about_me.css">
+  <link type="text/css" rel="stylesheet" href="/css/about_me/about_me_header/header_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/about_me/about_me_header/header_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/about_me/about_me_content/content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/about_me/about_me_content/content_design.css">
+  <!-- Contact Me -->
+  <link type="text/css" rel="stylesheet" href="/css/contact_me/contact_me.css">
+  <link type="text/css" rel="stylesheet" href="/css/contact_me/contact_me_content/content_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/contact_me/contact_me_content/content_design.css">
+  <link type="text/css" rel="stylesheet" href="/css/contact_me/contact_me_footer/footer_layout.css">
+  <link type="text/css" rel="stylesheet" href="/css/contact_me/contact_me_footer/footer_design.css">
+  <!-- Media Queries -->
+  <link type="text/css" rel="stylesheet" href="/css/media.css">
+  <!-- External Scripts -->
+  <script src=https://code.jquery.com/jquery-1.11.3.min.js></script>
+  <script type="application/javascript" src="scripts/navbar.js" defer></script>
+  <script type="application/javascript" src="scripts/active_project.js" defer></script>
+  <script type="application/javascript" src="scripts/catalog.js" defer></script>
+  <script type="application/javascript" src="scripts/catalog_animation.js" defer></script>
+  <script type="application/javascript" src="scripts/piano.js" defer></script>
+  <script type="application/javascript" src="scripts/activate_donation.js" defer></script>
+  <script type="application/javascript" src="scripts/catalog_project.js" defer></script>
+  <script type="application/javascript" src="scripts/navigate_extern.js" defer></script>
+</head>
+<body>
+  <div class="landing-page-container" id="home">
+    <header>
+      <div class="landing-page-header-container">
+        <div class="website-header-design">
+          <p>The</p>
+          <h1>DunderDunder</h1>
+          <p>A portfolio Website.</p>
+        </div>
+        <div class="ellipse">
+          <svg id="open-nav-menu" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="open-nav-path" d="M10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14Z" fill="black"/>
+            <path class="open-nav-path" d="M24 14C26.2091 14 28 12.2091 28 10C28 7.79086 26.2091 6 24 6C21.7909 6 20 7.79086 20 10C20 12.2091 21.7909 14 24 14Z" fill="black"/>
+            <path class="open-nav-path" d="M38 14C40.2091 14 42 12.2091 42 10C42 7.79086 40.2091 6 38 6C35.7909 6 34 7.79086 34 10C34 12.2091 35.7909 14 38 14Z" fill="black"/>
+            <path class="open-nav-path" d="M10 28C12.2091 28 14 26.2091 14 24C14 21.7909 12.2091 20 10 20C7.79086 20 6 21.7909 6 24C6 26.2091 7.79086 28 10 28Z" fill="black"/>
+            <path class="open-nav-path" d="M24 28C26.2091 28 28 26.2091 28 24C28 21.7909 26.2091 20 24 20C21.7909 20 20 21.7909 20 24C20 26.2091 21.7909 28 24 28Z" fill="black"/>
+            <path class="open-nav-path" d="M38 28C40.2091 28 42 26.2091 42 24C42 21.7909 40.2091 20 38 20C35.7909 20 34 21.7909 34 24C34 26.2091 35.7909 28 38 28Z" fill="black"/>
+            <path class="open-nav-path" d="M10 42C12.2091 42 14 40.2091 14 38C14 35.7909 12.2091 34 10 34C7.79086 34 6 35.7909 6 38C6 40.2091 7.79086 42 10 42Z" fill="black"/>
+            <path class="open-nav-path" d="M24 42C26.2091 42 28 40.2091 28 38C28 35.7909 26.2091 34 24 34C21.7909 34 20 35.7909 20 38C20 40.2091 21.7909 42 24 42Z" fill="black"/>
+            <path class="open-nav-path" d="M38 42C40.2091 42 42 40.2091 42 38C42 35.7909 40.2091 34 38 34C35.7909 34 34 35.7909 34 38C34 40.2091 35.7909 42 38 42Z" fill="black"/>
+          </svg>
+        </div>
+        <nav>
+          <svg id="close-nav-menu" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="close-nav-path" d="M26.92 24L38 35.08V38H35.08L24 26.92L12.92 38H10V35.08L21.08 24L10 12.92V10H12.92L24 21.08L35.08 10H38V12.92L26.92 24Z" fill="black"/>
+          </svg>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+          <div class="main-logo-container">
+            <div class="main-logo-design">
+              <div class="circle large-circle"></div>
+              <div class="circle medium-circle"></div>
+              <div class="circle small-circle"></div>
+              <div class="circle smallest-circle"></div>
+            </div>
+          </div>
+          <div class="social-links-container">
+            <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="instagram-path" d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+            </svg>
+            <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="youtube-path" d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+            </svg>
+            <svg class="link twitter-link" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path id="twitter-path" d="M42.8571 0H5.14286C2.30357 0 0 2.30357 0 5.14286V42.8571C0 45.6964 2.30357 48 5.14286 48H42.8571C45.6964 48 48 45.6964 48 42.8571V5.14286C48 2.30357 45.6964 0 42.8571 0ZM37.6179 17.0143C37.6393 17.3143 37.6393 17.625 37.6393 17.925C37.6393 27.2143 30.5679 37.9179 17.6464 37.9179C13.6607 37.9179 9.96429 36.7607 6.85714 34.7679C7.425 34.8321 7.97143 34.8536 8.55 34.8536C11.8393 34.8536 14.8607 33.7393 17.2714 31.8536C14.1857 31.7893 11.5929 29.7643 10.7036 26.9786C11.7857 27.1393 12.7607 27.1393 13.875 26.85C10.6607 26.1964 8.25 23.3679 8.25 19.95V19.8643C9.18214 20.3893 10.275 20.7107 11.4214 20.7536C10.4576 20.1125 9.66748 19.2427 9.12158 18.222C8.57567 17.2012 8.29096 16.0611 8.29286 14.9036C8.29286 13.5964 8.63571 12.3964 9.24643 11.3571C12.7071 15.6214 17.9036 18.4071 23.7321 18.7071C22.7357 13.9393 26.3036 10.0714 30.5893 10.0714C32.6143 10.0714 34.4357 10.9179 35.7214 12.2893C37.3071 11.9893 38.8286 11.4 40.1786 10.5964C39.6536 12.225 38.55 13.5964 37.0929 14.4643C38.5071 14.3143 39.8786 13.9179 41.1429 13.3714C40.1893 14.775 38.9893 16.0179 37.6179 17.0143Z" fill="black"/>
+            </svg>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <h2 id="new-upload">
+        <span style="color: var(--catalog-bar-pink)">N</span>
+        <span style="color: var(--catalog-bar-teal)">e</span>
+        <span style="color: var(--catalog-bar-red)">w</span>
+        <span style="color: var(--catalog-bar-pink)">U</span>
+        <span style="color: var(--catalog-bar-teal)">p</span>
+        <span style="color: var(--catalog-bar-red)">l</span>
+        <span style="color: var(--orange)">o</span>
+        <span style="color: var(--yellow)">a</span>
+        <span style="color: var(--green)">d</span>
+      </h2>
+      <div class="landing-page-video-container">
+        <div class="landing-page-video">
+          <iframe src="https://www.youtube.com/embed/DIfi9wDDpUQ?enablejsapi=1&version=3&playerapiid=ytplayer&controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h2>TitleOfVid</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, odio quod culpa cupiditate corporis velit porro sequi doloribus quam laboriosam maiores tenetur laborum blanditiis dignissimos adipisci quis aut veniam ex architecto nostrum ab nesciunt esse quibusdam recusandae? Eveniet est vitae similique explicabo praesentium consequatur culpa animi architecto ipsa, impedit quaerat tempore sequi voluptatum! Ipsam numquam iure nulla voluptas earum at delectus! Quo corporis reprehenderit consectetur? Beatae accusantium praesentium molestias fugit eaque laboriosam, quibusdam laudantium consequuntur?</p>
+      </div>
+      <div class="landing-page-content-container">
+        <div class="circle landing-page-content featured-project-1">
+          <div class="featured-project">
+            <div class="featured-project-image featured-project-1-image">
+              <img class="circle" src="/images/marbel-texture.jpg" alt="">
+              <div class="circle featured-project-info featured-project-1-info">
+                <h1>Name1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolore porro optio molestiae eius cum enim harum aut minus laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="circle landing-page-content featured-project-2">
+          <div class="featured-project">
+            <div class="featured-project-image featured-project-2-image">
+              <img class="circle" src="/images/ash-texture.jpg" alt="">
+              <div class="circle featured-project-info featured-project-2-info">
+                <h1>Name1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolore porro optio molestiae eius cum enim harum aut minus laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="circle landing-page-content featured-project-3">
+          <div class="featured-project">
+            <div class="featured-project-image featured-project-3-image">
+              <img class="circle" src="/images/architecture-contrast.jpg" alt="">
+              <div class="circle featured-project-info featured-project-3-info">
+                <h1>Name1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, reiciendis enim illo accusantium maxime quo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="circle next-page-container">
+          <a class="next-page" href="#portfolio">
+            <svg viewBox="0 0 26 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.9794 34.2169L13.8125 49.8506V8.25H12.1875V49.8506L6.02062 34.2169L4.875 37.125L13 57.75L21.125 37.125L19.9794 34.2169Z" fill="black"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="main-portfolio-container" id="portfolio">
+    <main>
+      <div class="header-container portfolio-header-container">
+        <div class="header-content portfolio-header-content">
+          <h1>The 
+            <span class="underline-segment-container">
+              Portfolio
+              <span>
+                <div class="underline-segment portfolio-segment-1"></div>
+                <div class="underline-segment portfolio-segment-2"></div>
+                <div class="underline-segment portfolio-segment-3"></div>
+                <div class="underline-segment portfolio-segment-4"></div>
+                <div class="underline-segment portfolio-segment-5"></div>
+              </span>
+            </span>
+          </h1>
+        </div>
+      </div>
+       <!-- 
+         Update: using display: grid now
+         Might consider using flex moving forward
+         Debate: ongoing
+       -->
+      <div class="previous-featured-projects-container">
+        <div class="previous-featured-project previous-featured-project-1">
+          <img class="link" id="previous-featured-project-1-img" src="/images/marbel-texture.jpg" alt="">
+          <div class="previous-featured-project-description">
+            <div class="previous-featured-project-info">
+              <div class="circle portfolio-circle" id="previous-featured-project-1-circle"></div>
+              <h2>Exhibit A</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius alias laboriosam totam nam, fuga delectus vero aspernatur modi dicta nobis veniam recusandae molestias repellat unde dolor aperiam amet! Quo dicta id odit minus vel aspernatur sint eligendi natus architecto dignissimos dolores, quos libero repudiandae error temporibus. Quam, mollitia. Iste, impedit?</p>
+            </div>
+          </div>
+          <div class="social-links-container portfolio-links-container">
+            <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="instagram-path" d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+            </svg>
+            <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="youtube-path" d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+            </svg>
+            <svg class="link twitter-link" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path id="twitter-path" d="M42.8571 0H5.14286C2.30357 0 0 2.30357 0 5.14286V42.8571C0 45.6964 2.30357 48 5.14286 48H42.8571C45.6964 48 48 45.6964 48 42.8571V5.14286C48 2.30357 45.6964 0 42.8571 0ZM37.6179 17.0143C37.6393 17.3143 37.6393 17.625 37.6393 17.925C37.6393 27.2143 30.5679 37.9179 17.6464 37.9179C13.6607 37.9179 9.96429 36.7607 6.85714 34.7679C7.425 34.8321 7.97143 34.8536 8.55 34.8536C11.8393 34.8536 14.8607 33.7393 17.2714 31.8536C14.1857 31.7893 11.5929 29.7643 10.7036 26.9786C11.7857 27.1393 12.7607 27.1393 13.875 26.85C10.6607 26.1964 8.25 23.3679 8.25 19.95V19.8643C9.18214 20.3893 10.275 20.7107 11.4214 20.7536C10.4576 20.1125 9.66748 19.2427 9.12158 18.222C8.57567 17.2012 8.29096 16.0611 8.29286 14.9036C8.29286 13.5964 8.63571 12.3964 9.24643 11.3571C12.7071 15.6214 17.9036 18.4071 23.7321 18.7071C22.7357 13.9393 26.3036 10.0714 30.5893 10.0714C32.6143 10.0714 34.4357 10.9179 35.7214 12.2893C37.3071 11.9893 38.8286 11.4 40.1786 10.5964C39.6536 12.225 38.55 13.5964 37.0929 14.4643C38.5071 14.3143 39.8786 13.9179 41.1429 13.3714C40.1893 14.775 38.9893 16.0179 37.6179 17.0143Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="previous-featured-project-ratings">
+            <button class="btn encourage-btn link" id="previous-featured-project-1-encourage-btn">
+              <div class="btn-content">
+                <p>Encourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#00FFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+            <button class="btn discourage-btn link" id="previous-featured-project-1-discourage-btn">
+              <div class="btn-content">
+                <p>Discourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#C73434" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="previous-featured-project previous-featured-project-2">
+          <img class="link" id="previous-featured-project-2-img" src="/images/ash-texture.jpg" alt="">
+          <div class="previous-featured-project-description">
+            <div class="previous-featured-project-info">
+              <div class="circle portfolio-circle" id="previous-featured-project-2-circle"></div>
+              <h2>Exhibit B</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius alias laboriosam totam nam, fuga delectus vero aspernatur modi dicta nobis veniam recusandae molestias repellat unde dolor aperiam amet! Quo dicta id odit minus vel aspernatur sint eligendi natus architecto dignissimos dolores, quos libero repudiandae error temporibus. Quam, mollitia. Iste, impedit?</p>
+            </div>
+          </div>
+          <div class="social-links-container portfolio-links-container">
+            <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="instagram-path" d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+            </svg>
+            <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="youtube-path" d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+            </svg>
+            <svg class="link twitter-link" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path id="twitter-path" d="M42.8571 0H5.14286C2.30357 0 0 2.30357 0 5.14286V42.8571C0 45.6964 2.30357 48 5.14286 48H42.8571C45.6964 48 48 45.6964 48 42.8571V5.14286C48 2.30357 45.6964 0 42.8571 0ZM37.6179 17.0143C37.6393 17.3143 37.6393 17.625 37.6393 17.925C37.6393 27.2143 30.5679 37.9179 17.6464 37.9179C13.6607 37.9179 9.96429 36.7607 6.85714 34.7679C7.425 34.8321 7.97143 34.8536 8.55 34.8536C11.8393 34.8536 14.8607 33.7393 17.2714 31.8536C14.1857 31.7893 11.5929 29.7643 10.7036 26.9786C11.7857 27.1393 12.7607 27.1393 13.875 26.85C10.6607 26.1964 8.25 23.3679 8.25 19.95V19.8643C9.18214 20.3893 10.275 20.7107 11.4214 20.7536C10.4576 20.1125 9.66748 19.2427 9.12158 18.222C8.57567 17.2012 8.29096 16.0611 8.29286 14.9036C8.29286 13.5964 8.63571 12.3964 9.24643 11.3571C12.7071 15.6214 17.9036 18.4071 23.7321 18.7071C22.7357 13.9393 26.3036 10.0714 30.5893 10.0714C32.6143 10.0714 34.4357 10.9179 35.7214 12.2893C37.3071 11.9893 38.8286 11.4 40.1786 10.5964C39.6536 12.225 38.55 13.5964 37.0929 14.4643C38.5071 14.3143 39.8786 13.9179 41.1429 13.3714C40.1893 14.775 38.9893 16.0179 37.6179 17.0143Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="previous-featured-project-ratings">
+            <button class="btn encourage-btn link" id="previous-featured-project-2-encourage-btn">
+              <div class="btn-content">
+                <p>Encourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#00FFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+            <button class="btn discourage-btn link" id="previous-featured-project-2-discourage-btn">
+              <div class="btn-content">
+                <p>Discourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#C73434" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="previous-featured-project previous-featured-project-3">
+          <img class="link" id="previous-featured-project-3-img" src="/images/architecture-contrast.jpg" alt="">
+          <div class="previous-featured-project-description">
+            <div class="previous-featured-project-info">
+              <div class="circle portfolio-circle" id="previous-featured-project-3-circle"></div>
+              <h2>Exhibit C</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius alias laboriosam totam nam, fuga delectus vero aspernatur modi dicta nobis veniam recusandae molestias repellat unde dolor aperiam amet! Quo dicta id odit minus vel aspernatur sint eligendi natus architecto dignissimos dolores, quos libero repudiandae error temporibus. Quam, mollitia. Iste, impedit?</p>
+            </div>
+          </div>
+          <div class="social-links-container portfolio-links-container">
+            <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="instagram-path" d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+            </svg>
+            <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="youtube-path" d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+            </svg>
+            <svg class="link twitter-link" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path id="twitter-path" d="M42.8571 0H5.14286C2.30357 0 0 2.30357 0 5.14286V42.8571C0 45.6964 2.30357 48 5.14286 48H42.8571C45.6964 48 48 45.6964 48 42.8571V5.14286C48 2.30357 45.6964 0 42.8571 0ZM37.6179 17.0143C37.6393 17.3143 37.6393 17.625 37.6393 17.925C37.6393 27.2143 30.5679 37.9179 17.6464 37.9179C13.6607 37.9179 9.96429 36.7607 6.85714 34.7679C7.425 34.8321 7.97143 34.8536 8.55 34.8536C11.8393 34.8536 14.8607 33.7393 17.2714 31.8536C14.1857 31.7893 11.5929 29.7643 10.7036 26.9786C11.7857 27.1393 12.7607 27.1393 13.875 26.85C10.6607 26.1964 8.25 23.3679 8.25 19.95V19.8643C9.18214 20.3893 10.275 20.7107 11.4214 20.7536C10.4576 20.1125 9.66748 19.2427 9.12158 18.222C8.57567 17.2012 8.29096 16.0611 8.29286 14.9036C8.29286 13.5964 8.63571 12.3964 9.24643 11.3571C12.7071 15.6214 17.9036 18.4071 23.7321 18.7071C22.7357 13.9393 26.3036 10.0714 30.5893 10.0714C32.6143 10.0714 34.4357 10.9179 35.7214 12.2893C37.3071 11.9893 38.8286 11.4 40.1786 10.5964C39.6536 12.225 38.55 13.5964 37.0929 14.4643C38.5071 14.3143 39.8786 13.9179 41.1429 13.3714C40.1893 14.775 38.9893 16.0179 37.6179 17.0143Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="previous-featured-project-ratings">
+            <button class="btn encourage-btn link" id="previous-featured-project-3-encourage-btn">
+              <div class="btn-content">
+                <p>Encourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#00FFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+            <button class="btn discourage-btn link" id="previous-featured-project-3-discourage-btn">
+              <div class="btn-content">
+                <p>Discourage</p>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.375 15V1M3.625 15V1V15ZM15 12.6667L12.375 15L9.75 12.6667H15ZM1 12.6667L3.625 15L6.25 12.6667H1Z" stroke="#C73434" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <button class="btn link portfolio-catalog-btn">
+      <div class="portfolio-catalog-btn-content" id="open-catalog-btn">
+        <p>View Catalog:</p>
+        <svg viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.78571C0 1.31211 0.188137 0.85791 0.523024 0.523024C0.85791 0.188137 1.31211 0 1.78571 0H8.92857C9.40217 0 9.85638 0.188137 10.1913 0.523024C10.5261 0.85791 10.7143 1.31211 10.7143 1.78571C10.7143 2.25932 10.5261 2.71352 10.1913 3.0484C9.85638 3.38329 9.40217 3.57143 8.92857 3.57143H6.09643L10.1911 7.66607C10.5164 8.00286 10.6963 8.45394 10.6923 8.92215C10.6882 9.39035 10.5004 9.83823 10.1693 10.1693C9.83823 10.5004 9.39035 10.6882 8.92215 10.6923C8.45394 10.6963 8.00286 10.5164 7.66607 10.1911L3.57143 6.09643V8.92857C3.57143 9.40217 3.38329 9.85638 3.0484 10.1913C2.71352 10.5261 2.25932 10.7143 1.78571 10.7143C1.31211 10.7143 0.85791 10.5261 0.523024 10.1913C0.188137 9.85638 0 9.40217 0 8.92857V1.78571ZM16.0714 3.57143C15.5978 3.57143 15.1436 3.38329 14.8087 3.0484C14.4739 2.71352 14.2857 2.25932 14.2857 1.78571C14.2857 1.31211 14.4739 0.85791 14.8087 0.523024C15.1436 0.188137 15.5978 0 16.0714 0H23.2143C23.6879 0 24.1421 0.188137 24.477 0.523024C24.8119 0.85791 25 1.31211 25 1.78571V8.92857C25 9.40217 24.8119 9.85638 24.477 10.1913C24.1421 10.5261 23.6879 10.7143 23.2143 10.7143C22.7407 10.7143 22.2865 10.5261 21.9516 10.1913C21.6167 9.85638 21.4286 9.40217 21.4286 8.92857V6.09643L17.3339 10.1911C17.1692 10.3616 16.9722 10.4977 16.7543 10.5913C16.5364 10.6848 16.3021 10.7341 16.065 10.7362C15.8279 10.7382 15.5928 10.693 15.3733 10.6033C15.1538 10.5135 14.9545 10.3809 14.7868 10.2132C14.6191 10.0455 14.4865 9.84616 14.3967 9.6267C14.307 9.40725 14.2618 9.1721 14.2638 8.935C14.2659 8.69789 14.3152 8.46357 14.4087 8.24571C14.5023 8.02784 14.6384 7.8308 14.8089 7.66607L18.9036 3.57143H16.0714ZM0 16.0714C0 15.5978 0.188137 15.1436 0.523024 14.8087C0.85791 14.4739 1.31211 14.2857 1.78571 14.2857C2.25932 14.2857 2.71352 14.4739 3.0484 14.8087C3.38329 15.1436 3.57143 15.5978 3.57143 16.0714V18.9036L7.66607 14.8089C8.00286 14.4836 8.45394 14.3037 8.92215 14.3077C9.39035 14.3118 9.83823 14.4996 10.1693 14.8307C10.5004 15.1618 10.6882 15.6096 10.6923 16.0779C10.6963 16.5461 10.5164 16.9971 10.1911 17.3339L6.09643 21.4286H8.92857C9.40217 21.4286 9.85638 21.6167 10.1913 21.9516C10.5261 22.2865 10.7143 22.7407 10.7143 23.2143C10.7143 23.6879 10.5261 24.1421 10.1913 24.477C9.85638 24.8119 9.40217 25 8.92857 25H1.78571C1.31211 25 0.85791 24.8119 0.523024 24.477C0.188137 24.1421 0 23.6879 0 23.2143V16.0714ZM23.2143 14.2857C23.6879 14.2857 24.1421 14.4739 24.477 14.8087C24.8119 15.1436 25 15.5978 25 16.0714V23.2143C25 23.6879 24.8119 24.1421 24.477 24.477C24.1421 24.8119 23.6879 25 23.2143 25H16.0714C15.5978 25 15.1436 24.8119 14.8087 24.477C14.4739 24.1421 14.2857 23.6879 14.2857 23.2143C14.2857 22.7407 14.4739 22.2865 14.8087 21.9516C15.1436 21.6167 15.5978 21.4286 16.0714 21.4286H18.9036L14.8089 17.3339C14.4836 16.9971 14.3037 16.5461 14.3077 16.0779C14.3118 15.6096 14.4996 15.1618 14.8307 14.8307C15.1618 14.4996 15.6096 14.3118 16.0779 14.3077C16.5461 14.3037 16.9971 14.4836 17.3339 14.8089L21.4286 18.9036V16.0714C21.4286 15.5978 21.6167 15.1436 21.9516 14.8087C22.2865 14.4739 22.7407 14.2857 23.2143 14.2857V14.2857Z" fill="black"/>
+        </svg>
+      </div>
+    </button>
+    <!-- 
+      Need to stop img stretching
+      Possible fix for catalog-container: max-width?
+      Mistake on catalog: both project header and project description should've been wrapped in a container
+      This would make it easier to convert to flex-direction: column as needed in the tablet-desktop version of site
+     -->
+    <section>
+      <div class="portfolio-catalog-container">
+        <div class="portfolio-catalog">
+          <div class="portfolio-catalog-main-header">
+            <div class="portfolio-catalog-header">
+              <div class="portfolio-catalog-img">
+                <img src="/images/raised-bed.jpg" alt="">
+                <div class="portfolio-catalog-social-container">
+                  <div class="link portfolio-catalog-social-link catalog-youtube-link">
+                    <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+                    </svg>
+                    <p>Watch video</p>
+                  </div>
+                  <div class="link portfolio-catalog-social-link catalog-instagram-link">
+                    <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+                    </svg>
+                    <p>See photos</p>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog-project-analytics">
+                <div class="bar-content">
+                  <div class="bar encourage-bar">
+                    <p>Encourage</p>
+                    <div class="bar-container encourage-bar-container">
+                      <div class="bar-fill encourage-bar-fill"></div>
+                    </div>
+                  </div>
+                  <div class="bar discourage-bar">
+                    <p>Discourage</p>
+                    <div class="bar-container discourage-bar-container">
+                      <div class="bar-fill discourage-bar-fill"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-catalog-project-description">
+              <div class="portfolio-catalog-project-header">
+                <h1>Exhibit A</h1>
+                <h1>Exhibit A</h1>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt excepturi earum, doloremque consequatur, veniam blanditiis magnam delectus ipsa repudiandae eaque labore? Similique, labore nostrum ullam error eum sint, modi atque alias veritatis officia accusantium vitae. Consequuntur voluptatibus rem quasi doloribus esse. Nam nobis quia facere, nisi a tempora quibusdam iste.</p>
+            </div>
+          </div>
+          <div class="portfolio-catalog-main">
+            <img class="link catalog-img" id="catalog-img-1" src="/images/raised-bed.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-2" src="/images/food.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-3" src="/images/flower.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-4" src="/images/coffee.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-5" src="/images/ice.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-6" src="/images/brush-strokes.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-7" src="/images/lion.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-8" src="/images/plant.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-9" src="/images/interior.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-10" src="/images/peacock.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-11" src="/images/raised-bed.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-12" src="/images/food.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-13" src="/images/flower.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-14" src="/images/coffee.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-15" src="/images/ice.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-16" src="/images/brush-strokes.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-17" src="/images/lion.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-18" src="/images/plant.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-19" src="/images/interior.jpg" alt="">
+            <img class="link catalog-img" id="catalog-img-20" src="/images/peacock.jpg" alt="">
+          </div>
+          <div class="logo-watermark-container">
+            <div class="logo-watermark">
+              <h3>DunderDunder</h3>
+              <h3>DunderDunder</h3>
+              <h3>DunderDunder</h3>
+              <h3>DunderDunder</h3>
+            </div>
+          </div>
+          <div class="circle btn link close-catalog-btn" id="close-catalog-btn">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.92 24L38 35.08V38H35.08L24 26.92L12.92 38H10V35.08L21.08 24L10 12.92V10H12.92L24 21.08L35.08 10H38V12.92L26.92 24Z" fill="black"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="roadmap-container" id="roadmap">
+    <section>
+      <div class="header-container roadmap-header-container">
+        <div class="header-content roadmap-header-content">
+          <div class="roadmap-segment-container">
+            <h1>Roadmap</h1>
+            <div class="underline-segment roadmap-segment-1"></div>
+            <div class="underline-segment roadmap-segment-2"></div>
+            <div class="underline-segment roadmap-segment-3"></div>
+            <div class="underline-segment roadmap-segment-4"></div>
+            <div class="underline-segment roadmap-segment-5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="piano-list-roadmap">
+        <ul class="piano">
+          <li class="key piano-key" id="piano-key-1">
+            <audio src="/audio/piano/Piano1.mp3" id="piano1"></audio>
+            <div class="natural-key-content" id="piano-1-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis</p>
+              <h3>1</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-1">
+            <audio src="/audio/piano/Piano2.mp3" id="piano2"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-2">
+            <audio src="/audio/piano/Piano3.mp3" id="piano3"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>2</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-2">
+            <audio src="/audio/piano/Piano4.mp3" id="piano4"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-3">
+            <audio src="/audio/piano/Piano5.mp3" id="piano5"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>3</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-3">
+            <audio src="/audio/piano/Piano6.mp3" id="piano6"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-4">
+            <audio src="/audio/piano/Piano7.mp3" id="piano7"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>4</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-4">
+            <audio src="/audio/piano/Piano8.mp3" id="piano8"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-5">
+            <audio src="/audio/piano/Piano9.mp3" id="piano9"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>5</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-5">
+            <audio src="/audio/piano/Piano10.mp3" id="piano10"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-6">
+            <audio src="/audio/piano/Piano11.mp3" id="piano11"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>6</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-6">
+            <audio src="/audio/piano/Piano12.mp3" id="piano12"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-7">
+            <audio src="/audio/piano/Piano13.mp3" id="piano13"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>7</h3>
+            </div>
+          </li>
+          <div class="key sharps-and-flats" id="sharp-and-flat-7">
+            <audio src="/audio/piano/Piano14.mp3" id="piano14"></audio>
+          </div>
+          <li class="key piano-key" id="piano-key-8">
+            <audio src="/audio/piano/Piano15.mp3" id="piano15"></audio>
+            <div class="natural-key-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis corrupti sunt dolores amet? Perferendis.</p>
+              <h3>8</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <div class="about-me-container" id="about-me">
+    <section>
+      <div class="header-flag about-me-header">
+        <svg viewBox="0 0 180 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M55 74V0H0L21.2736 36.5L0 74H55Z" fill="#00D0FF"/>
+          <rect x="28" width="152" height="74" fill="#00D0FF"/>
+        </svg>
+        <h1>About Me</h1>
+      </div>
+      <div class="self-portrait">
+        <div class="circle about-me-portrait">
+          <div class="circle about-me-circle blue-circle"></div>
+          <div class="circle about-me-circle green-circle"></div>
+          <div class="circle about-me-circle yellow-circle"></div>
+        </div>
+      </div>
+      <div class="about-me-info">
+        <h1>Hope you enjoyed DunderDunder!</h1>
+        <p>
+          <strong>As you may have noticed...</strong> this isn't your typical portfolio. Hence, the name.
+          DunderDunder is a step above a portfolio: a "living" portofolio. An ever evolving display of
+          technique, creativiity, and mastery. I challenge you, as the viewer, to follow me along this journey
+          and analyze some of the overarching themes that I'm exploring. By no means am I a professional, so
+          I encourage you to provide feedback (any format) that'll help me along my travels.
+        </p>
+        <p>
+          <strong>Who am I?</strong> I'm Jacob! An amateur engineer with no formal experience in this field, but
+          passionate enough to force my way in!! Or at least try. Starting as a complete amateur and recording
+          my trials and tribulations will not only benefit me, but you too!! Whether you're in this field or not.
+          If I leave you with anything it's this: Follow your Dreams!! Leave the self-doubt behind and listen to
+          that voice in your head and achieve greatness.
+        </p>
+      </div>
+      <div class="farewell">
+        <h2>Check back again for constant updates!</h2>
+      </div>
+    </section>
+  </div>
+  <div class="contact-me-container" id="contact-me">
+    <section>
+      <div class="header-flag contact-header">
+        <svg viewBox="0 0 180 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M55 74V0H0L21.2736 36.5L0 74H55Z" fill="#72824D"/>
+          <rect x="28" width="152" height="74" fill="#72824D"/>
+        </svg>
+          <h1>Contact Me</h1>          
+      </div>
+      <div class="contact-me-content">
+        <div class="contact-email-container">
+          <h2 id="email-header">Stay up to Date on all things DunderDunder</h2>
+          <div class="newsfeed">
+            <!-- Need to style button differently to suit needs of each browser -->
+            <form action="backend/process-email.php" method="post">
+              <input type="email" id="email" placeholder="DunderDunder@gmail.com">
+              <button id="submit" for="email">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-me-links-container">
+          <div class="contact-me-social">
+            <h2>Twitter</h2>
+            <div class="contact-me-link contact-me-twitter">
+              <p>@DunderDunder</p>
+              <svg class="link twitter-link" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.8571 0H5.14286C2.30357 0 0 2.30357 0 5.14286V42.8571C0 45.6964 2.30357 48 5.14286 48H42.8571C45.6964 48 48 45.6964 48 42.8571V5.14286C48 2.30357 45.6964 0 42.8571 0ZM37.6179 17.0143C37.6393 17.3143 37.6393 17.625 37.6393 17.925C37.6393 27.2143 30.5679 37.9179 17.6464 37.9179C13.6607 37.9179 9.96429 36.7607 6.85714 34.7679C7.425 34.8321 7.97143 34.8536 8.55 34.8536C11.8393 34.8536 14.8607 33.7393 17.2714 31.8536C14.1857 31.7893 11.5929 29.7643 10.7036 26.9786C11.7857 27.1393 12.7607 27.1393 13.875 26.85C10.6607 26.1964 8.25 23.3679 8.25 19.95V19.8643C9.18214 20.3893 10.275 20.7107 11.4214 20.7536C10.4576 20.1125 9.66748 19.2427 9.12158 18.222C8.57567 17.2012 8.29096 16.0611 8.29286 14.9036C8.29286 13.5964 8.63571 12.3964 9.24643 11.3571C12.7071 15.6214 17.9036 18.4071 23.7321 18.7071C22.7357 13.9393 26.3036 10.0714 30.5893 10.0714C32.6143 10.0714 34.4357 10.9179 35.7214 12.2893C37.3071 11.9893 38.8286 11.4 40.1786 10.5964C39.6536 12.225 38.55 13.5964 37.0929 14.4643C38.5071 14.3143 39.8786 13.9179 41.1429 13.3714C40.1893 14.775 38.9893 16.0179 37.6179 17.0143Z" fill="black"/>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-me-social">
+            <h2>Instagram</h2>
+            <div class="contact-me-link contact-me-instagram">
+              <p>@TheDunderDunder</p>
+              <svg class="link instagram-link" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M128 82C118.902 82 110.008 84.6979 102.444 89.7524C94.8791 94.8069 88.9832 101.991 85.5015 110.397C82.0199 118.802 81.109 128.051 82.8839 136.974C84.6588 145.897 89.0399 154.094 95.4731 160.527C101.906 166.96 110.103 171.341 119.026 173.116C127.949 174.891 137.198 173.98 145.603 170.498C154.009 167.017 161.193 161.121 166.248 153.556C171.302 145.992 174 137.098 174 128C174 115.8 169.154 104.1 160.527 95.4731C151.9 86.8464 140.2 82 128 82V82ZM128 150C123.649 150 119.395 148.71 115.777 146.292C112.16 143.875 109.34 140.439 107.675 136.419C106.01 132.399 105.574 127.976 106.423 123.708C107.272 119.44 109.367 115.52 112.444 112.444C115.52 109.367 119.44 107.272 123.708 106.423C127.976 105.574 132.399 106.01 136.419 107.675C140.439 109.34 143.875 112.16 146.292 115.777C148.71 119.395 150 123.649 150 128C149.974 133.827 147.647 139.407 143.527 143.527C139.407 147.647 133.827 149.974 128 150ZM176 20H80C64.087 20 48.8258 26.3214 37.5736 37.5736C26.3214 48.8258 20 64.087 20 80V176C20 191.913 26.3214 207.174 37.5736 218.426C48.8258 229.679 64.087 236 80 236H176C191.913 236 207.174 229.679 218.426 218.426C229.679 207.174 236 191.913 236 176V80C236 64.087 229.679 48.8258 218.426 37.5736C207.174 26.3214 191.913 20 176 20V20ZM212 176C212 185.548 208.207 194.705 201.456 201.456C194.705 208.207 185.548 212 176 212H80C70.4522 212 61.2955 208.207 54.5442 201.456C47.7928 194.705 44 185.548 44 176V80C44 70.4522 47.7928 61.2955 54.5442 54.5442C61.2955 47.7928 70.4522 44 80 44H176C185.548 44 194.705 47.7928 201.456 54.5442C208.207 61.2955 212 70.4522 212 80V176ZM196 76C196 79.1645 195.062 82.2579 193.304 84.8891C191.545 87.5203 189.047 89.5711 186.123 90.7821C183.199 91.9931 179.982 92.3099 176.879 91.6926C173.775 91.0752 170.924 89.5513 168.686 87.3137C166.449 85.0761 164.925 82.2251 164.307 79.1214C163.69 76.0177 164.007 72.8007 165.218 69.8771C166.429 66.9534 168.48 64.4546 171.111 62.6965C173.742 60.9384 176.835 60 180 60C184.243 60 188.313 61.6857 191.314 64.6863C194.314 67.6869 196 71.7565 196 76Z" fill="black"/>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-me-social">
+            <h2>Youtube</h2>
+            <div class="contact-me-link contact-me-youtube">
+              <p>DunderDunder</p>
+              <svg class="link youtube-link" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0.299999C0.172 0.299999 0 1.174 0 8C0 14.826 0.172 15.7 10 15.7C19.828 15.7 20 14.826 20 8C20 1.174 19.828 0.299999 10 0.299999ZM13.205 8.334L8.715 10.43C8.322 10.612 8 10.408 8 9.974V6.026C8 5.593 8.322 5.388 8.715 5.57L13.205 7.666C13.598 7.85 13.598 8.15 13.205 8.334Z" fill="black"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact-me-watermark-container">
+      <div class="circle contact-me-watermark contact-me-circle-1"></div>
+      <div class="circle contact-me-watermark contact-me-circle-2"></div>
+      <div class="circle contact-me-watermark contact-me-circle-3"></div>
+      <div class="circle contact-me-watermark contact-me-circle-4"></div>
+    </div>
+    <div class="contact-me-footer-container">
+      <footer>
+        <div class="donation-container">
+          <div class="activate-donation">
+            <svg viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.99917 2.31876e-07L0 8.09428L2.35255 10L10.0058 3.80471L17.6475 10L20 8.09562L9.99917 2.31876e-07Z" fill="black"/>
+            </svg>
+          </div>
+          <div class="wallet-address">
+            <!-- 
+              Popup not working on iOS / phones 
+              Solution: remove 'copy' svg... user must select and copy the address manually
+            -->
+            <h3>Address: </h3>
+            <p>1bdjdkqhqqpi123uopadjk0qweuopadjk0qwejk</p>
+          </div>
+          <div class="donation-message">
+            <p>Please consider donating</p>
+            <p>All donations go directly to the projects listed on the roadmap</p>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="footer-navigation">
+            <h3>DunderDunder<sup>&#169</sup></h3>
+            <div class="footer-nav-format">
+              <div class="left-footer-nav">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#roadmap">Roadmap</a>
+              </div>
+              <div class="right-footer-nav">
+                <a href="#about-me">About Me</a>
+                <a href="#contact-me">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-mission">
+            <h3>Mission</h3>
+            <p>Traversing the known in the hope of one day entering the unknown. One step closer, or so we think.</p>
+          </div>
+        </div>
+        <p id="legal-info">DunderDunder, LLC. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.landing-page-container {
+    font-family: var(--main-font), sans-serif;
+    font-weight: 300;
+}
+.website-header-design {
+    margin: 2.8rem 0 0 2rem;
+}
+.website-header-design h1 {
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+.website-header-design p {
+    color: var(--main-dark-gray);
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.website-header-design :nth-child(3) {
+    margin-left: 0.1rem;
+    font-size: 0.9rem;
+}
+.ellipse {
+    height: 9.9375rem;
+    width: 8.4375rem;
+    border-radius: 50%;;
+    background-color: var(--main-teal);
+    margin: -1.2rem -2rem 0 0;
+    transform: rotate(-15deg);
+}

@@ -1,0 +1,20 @@
+.header-flag {
+    position: relative;
+    height: 6.25rem;
+    overflow: hidden;
+}
+.header-flag svg {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    height: 5rem;
+}
+.header-flag h1 {
+    position: absolute;
+    margin: 0;
+    user-select: none;
+}
+.about-me-header h1 {
+    top: 2.5rem;
+    right: 2rem;
+}

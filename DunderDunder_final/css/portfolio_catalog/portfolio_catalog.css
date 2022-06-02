@@ -1,0 +1,25 @@
+:root {
+    --catalog-background: rgb(50, 50, 50);
+    --catalog-dark-gray: rgb(45, 45, 45);
+    --catalog-header-dark-gray: rgb(33, 33, 33);
+    --catalog-header-light-gray: rgb(180, 180, 180);
+    --catalog-bar-teal: rgb(113, 233, 218);
+    --catalog-bar-pink: rgb(255, 191, 191);
+    --catalog-bar-red: rgb(199, 52, 52);
+    --catalog-main-font: 'Inter';
+    --catalog-accent-font: 'Poppins';
+    --catalog-header-font: 'Angkor';
+    --catalog-bar-container: rgb(196, 196, 196);
+}
+.portfolio-catalog-container {
+    position: absolute;
+    z-index: 900;
+    height: 100%;
+    top: 0;
+    transform: translateY(-1000rem);
+}
+.portfolio-catalog {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+}

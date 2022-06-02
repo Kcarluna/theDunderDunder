@@ -1,0 +1,22 @@
+.header-container {
+    background-color: var(--black);
+}
+.header-content h1 {
+    color: var(--white);
+    font-family: var(--portfolio-header-font), sans-serif;
+}
+.portfolio-segment-1 {
+    background-color: var(--red);
+}
+.portfolio-segment-2 {
+    background-color: var(--orange);
+}
+.portfolio-segment-3 {
+    background-color: var(--yellow);
+}
+.portfolio-segment-4 {
+    background-color: var(--green);
+}
+.portfolio-segment-5 {
+    background-color: var(--teal);
+}
